@@ -1,0 +1,30 @@
+.thumbnail{
+	border: solid 3px #000;
+}
+
+.thumbnail{
+	border: solid 10px #f19494;
+}
+.project-wrapper{
+	margin: 15px 0;
+
+}
+.project-wrapper-container{
+	position: relative;
+	width: 80%;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.project-wrapper-container .overlay,
+.project-wrapper-container .thumbnail{
+	position: absolute;
+}
+
+.project-wrapper-container .overlay{
+	width: 100%;
+	height: 100%;
+	background: rgba(255,118,0,0.50);
+	display: none;
+}
+
